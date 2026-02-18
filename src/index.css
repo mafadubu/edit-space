@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;700&display=swap');
+
+/* Korean Pixel Font */
+@font-face {
+  font-family: 'NeoDunggeunmo';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/NeoDunggeunmo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #111;
+  --link-color: #111;
+  --link-hover: #0000ff;
+  --border-color: #333;
+  --accent-blue: #0000ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'NeoDunggeunmo', 'Inter', sans-serif;
+  letter-spacing: -0.5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.mono {
+  font-family: 'Space Mono', 'NeoDunggeunmo', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+/* User request 3: Hover should be blue, not yellow highlighter */
+a:hover {
+  color: var(--link-hover);
+  background-color: transparent;
+  /* Remove yellow background */
+  text-decoration: none;
+}
+
+.header-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* User request: EDIT SPACE should also turn blue on hover */
+.header-title a:hover {
+  color: var(--accent-blue) !important;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+
+.layout-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.header {
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-l.book-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.header-logo-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.goat-logo {
+  height: 7rem;
+  /* Doubled from 3.5rem as requested */
+  width: auto;
+  image-rendering: pixelated;
+}
+
+.header-title {
+  font-size: 3.5rem;
+  /* Larger title to match goat */
+  letter-spacing: -3px;
+  line-height: 0.8;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  font-family: 'Space Mono', 'NeoDunggeunmo', monospace;
+  font-size: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* User request 3: Menu hover should be blue */
+.nav-links a:hover {
+  color: var(--accent-blue) !important;
+}
+
+.nav-links a.active {
+  background-color: #000;
+  color: #fff;
+}
+
+/* User request: Active link should stay white on hover when active */
+.nav-links a.active:hover {
+  color: #fff !important;
+}
+
+.main-page-container {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  min-height: 60vh;
+}
+
+.main-page {
+  flex: 1;
+  max-width: 600px;
+}
+
+.book-preview-side {
+  flex: 0 0 500px;
+  position: sticky;
+  top: 10px;
+  /* Closer to header */
+  height: fit-content;
+  pointer-events: none;
+  display: flex;
+  align-items: flex-start;
+  margin-top: -30px;
+  /* Pull up to sit just below header line */
+}
+
+.book-preview-container {
+  width: 100%;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.book-preview-container img {
+  width: 100%;
+  height: auto;
+  max-height: 85vh;
+  object-fit: contain;
+  /* Removed shadow as requested */
+}
+
+.wip-item {
+  cursor: default;
+}
+
+.wip-title {
+  color: var(--secondary-text);
+  font-style: italic;
+  opacity: 0.6;
+}
+
+.year-section {
+  margin-bottom: 2rem;
+  /* Reduced spacing between years as requested */
+}
+
+.year-title {
+  font-size: 0.9rem;
+  /* Smaller year headers as requested */
+  display: block;
+  margin-bottom: 0.5rem;
+  /* line-bottom removed as requested */
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-item {
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  display: flex;
+  align-items: baseline;
+}
+
+.month-tag {
+  font-family: 'Space Mono', monospace;
+  color: var(--accent-blue);
+  font-weight: bold;
+  margin-right: 15px;
+  min-width: 40px;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.book-title-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tag-group {
+  display: flex;
+  gap: 4px;
+}
+
+.tag-box {
+  font-size: 0.65rem;
+  padding: 1px 4px;
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  color: #666;
+  font-family: 'Space Mono', monospace;
+  line-height: 1;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.milestone-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.milestone-title {
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.milestone-icon {
+  height: 0.9rem;
+  width: auto;
+  opacity: 0.8;
+  vertical-align: middle;
+}
+
+/* User request 1: Seamless Library Grid, 4 columns, no gaps, no lines */
+.puzzle-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 columns as requested */
+  gap: 0;
+  line-height: 0;
+  /* Remove potential tiny gaps below images */
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+  /* Standard book ratio */
+  /* No borders as requested */
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Spans removed for uniform grid */
+
+/* Info Page */
+.info-content {
+  max-width: 700px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 60px;
+  /* Increased spacing before footer */
+}
+
+.info-section {
+  margin-bottom: 0.5rem;
+  /* Tight spacing as requested */
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+}
+
+.info-label {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--accent-blue);
+  font-size: 0.75rem;
+  min-width: 80px;
+  /* Ensure labels align */
+}
+
+.info-value {
+  margin: 0;
+}
+
+footer {
+  margin-top: 60px;
+  border-top: 2px solid #333;
+  padding-top: 20px;
+  font-size: 0.7rem;
+  opacity: 0.6;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .layout-container {
+    padding: 20px 15px;
+  }
+
+  .header-title {
+    font-size: 2.2rem;
+    letter-spacing: -2px;
+  }
+
+  .goat-logo {
+    height: 4.5rem;
+  }
+
+  .main-page-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .book-preview-side {
+    display: none;
+    /* Hide desktop hover side preview on mobile */
+  }
+
+  .book-item a {
+    white-space: nowrap;
+    /* Prevent title wrapping as requested */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Library 2 columns for mobile */
+  .puzzle-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Mobile Preview Modal */
+  .preview-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .preview-modal-content {
+    background: transparent;
+    max-width: 90vw;
+    max-height: 90vh;
+    position: relative;
+  }
+
+  .preview-modal-content img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  .preview-modal-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+  }
+}
