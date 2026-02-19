@@ -41,15 +41,12 @@ const Main = () => {
                                             <span className="wip-title">{book.title}</span>
                                         ) : book.isMilestone ? (
                                             <div className="milestone-item">
-                                                <span className="milestone-title">{book.title}</span>
-                                                {book.milestoneIcon && (
-                                                    <img src={book.milestoneIcon} alt="Milestone Icon" className="milestone-icon" />
-                                                )}
+                                                <span className="milestone-title">🔖 {book.title}</span>
                                             </div>
                                         ) : (
                                             <div className="book-title-group">
                                                 <a href={book.link || '#'} onClick={(e) => !book.link && e.preventDefault()}>
-                                                    {book.title}
+                                                    📚 {book.title}
                                                 </a>
                                                 {book.tags && (
                                                     <div className="tag-group">

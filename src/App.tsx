@@ -2,23 +2,25 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import Main from './pages/Main';
 import Info from './pages/Info';
 import Library from './pages/Library';
+import Notes from './pages/Notes';
 import './index.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/edit-space">
       <div className="layout-container">
         <header className="header">
           <div className="header-logo-group">
-            <img src="/goat.png" alt="Goat Logo" className="goat-logo" />
+            <img src="/edit-space/goat.png" alt="Goat Logo" className="goat-logo" />
             <h1 className="header-title">
-              <NavLink to="/">
+              <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>
                 EDIT SPACE
               </NavLink>
             </h1>
           </div>
           <nav className="nav-links">
             <NavLink to="/info" className={({ isActive }) => isActive ? 'active' : ''}>INFO</NavLink>
+            <NavLink to="/notes" className={({ isActive }) => isActive ? 'active' : ''}>NOTES</NavLink>
             <NavLink to="/library" className={({ isActive }) => isActive ? 'active' : ''}>LIBRARY</NavLink>
           </nav>
         </header>
@@ -27,6 +29,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/info" element={<Info />} />
+            <Route path="/notes" element={<Notes />} />
             <Route path="/library" element={<Library />} />
           </Routes>
         </main>

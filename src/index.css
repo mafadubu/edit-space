@@ -61,13 +61,33 @@ a:hover {
 .header-title a {
   text-decoration: none;
   color: inherit;
+  padding: 5px 10px;
+  /* Add padding for the background box */
+  margin: -5px -10px;
+  /* Negative margin to maintain alignment */
+  border-radius: 4px;
+  /* Optional: slight rounded corners like a button/tag might look better, or keep square */
+  display: inline-block;
+  /* Required for padding/background to render correctly */
 }
 
-/* User request: EDIT SPACE should also turn blue on hover */
+/* Hover: Blue (Inactive) */
 .header-title a:hover {
   color: var(--accent-blue) !important;
-  background-color: transparent !important;
+  background-color: transparent;
   text-decoration: none;
+}
+
+/* Active State: Black Background, White Text */
+.header-title a.active {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Active Hover: Stay White */
+.header-title a.active:hover {
+  color: #fff !important;
+  background-color: #000 !important;
 }
 
 .layout-container {
@@ -341,8 +361,15 @@ footer {
   }
 
   .header-title {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     letter-spacing: -2px;
+  }
+
+  /* Fix for overlapping: Remove negative margins so layout respects box width */
+  .header-title a {
+    padding: 3px 6px;
+    margin: 0;
+    display: inline-block;
   }
 
   .goat-logo {
@@ -360,10 +387,14 @@ footer {
   }
 
   .book-item a {
-    white-space: nowrap;
-    /* Prevent title wrapping as requested */
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+
+  .book-title-group {
+    flex-wrap: wrap;
+    row-gap: 2px;
   }
 
   /* Library 2 columns for mobile */
