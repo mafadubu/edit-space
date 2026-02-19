@@ -362,46 +362,70 @@ footer {
 
   /* Compact Header for Mobile */
   .header {
-    flex-direction: column; /* Stack logo/title and nav on very small screens if needed, OR keep row and shrink */
-    gap: 10px;
+    flex-direction: column;
+    gap: 8px;
+    /* Tighter vertical gap */
     align-items: center;
     justify-content: center;
+    padding-bottom: 15px;
+    /* Less padding at bottom */
+    margin-bottom: 20px;
   }
 
   .header-logo-group {
     width: 100%;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 5px;
+    gap: 8px;
+    /* Tighter gap between goat and title */
+    margin-bottom: 0px;
   }
 
   .header-title {
-    font-size: 1.8rem; /* Smaller title */
+    font-size: 1.5rem;
+    /* Significantly smaller title to match nav width */
     letter-spacing: -1px;
+    line-height: 1;
   }
 
-  /* Remove black box effect on mobile as requested */
-  .header-title a,
-  .header-title a:hover,
-  .header-title a.active,
-  .header-title a.active:hover {
-    padding: 0;
+  /* RESTORE Black Box effect on mobile */
+  .header-title a {
+    padding: 3px 6px;
     margin: 0;
-    background-color: transparent !important;
-    color: var(--text-color) !important;
-    display: inline;
+    display: inline-block;
+    border-radius: 4px;
+    /* Reset colors managed by global/desktop styles */
+  }
+
+  /* Ensure active state works on mobile too */
+  .header-title a.active {
+    background-color: #000;
+    color: #fff;
+  }
+
+  /* Ensure hover doesn't break layout */
+  .header-title a:hover {
+    color: var(--accent-blue);
+    background-color: transparent;
+  }
+
+  .header-title a.active:hover {
+    color: #fff !important;
+    background-color: #000 !important;
   }
 
   .goat-logo {
-    height: 3rem; /* Much smaller logo */
+    height: 2.2rem;
+    /* Matches the smaller title height */
   }
 
   /* Compact Nav */
   .nav-links {
     width: 100%;
     justify-content: center;
-    gap: 15px; /* Smaller gap */
-    font-size: 0.85rem; /* Smaller text */
+    gap: 12px;
+    /* Tighter gap to match top row width */
+    font-size: 0.8rem;
+    /* Slightly smaller text */
   }
 
   .main-page-container {
