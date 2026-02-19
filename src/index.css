@@ -360,20 +360,48 @@ footer {
     padding: 20px 15px;
   }
 
-  .header-title {
-    font-size: 2.0rem;
-    letter-spacing: -2px;
+  /* Compact Header for Mobile */
+  .header {
+    flex-direction: column; /* Stack logo/title and nav on very small screens if needed, OR keep row and shrink */
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
   }
 
-  /* Fix for overlapping: Remove negative margins so layout respects box width */
-  .header-title a {
-    padding: 3px 6px;
+  .header-logo-group {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
+  }
+
+  .header-title {
+    font-size: 1.8rem; /* Smaller title */
+    letter-spacing: -1px;
+  }
+
+  /* Remove black box effect on mobile as requested */
+  .header-title a,
+  .header-title a:hover,
+  .header-title a.active,
+  .header-title a.active:hover {
+    padding: 0;
     margin: 0;
-    display: inline-block;
+    background-color: transparent !important;
+    color: var(--text-color) !important;
+    display: inline;
   }
 
   .goat-logo {
-    height: 4.5rem;
+    height: 3rem; /* Much smaller logo */
+  }
+
+  /* Compact Nav */
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    gap: 15px; /* Smaller gap */
+    font-size: 0.85rem; /* Smaller text */
   }
 
   .main-page-container {
