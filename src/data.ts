@@ -45,7 +45,7 @@ export interface Note {
 }
 
 export const notes: Note[] = [
-    { id: 'n1', title: 'Start of Notes', year: 2026, month: 'FEB', link: '#', tags: ['Thinking'] },
+    { id: 'n1', title: '안티그래비티로 웹사이트 생성하기', year: 2026, month: 'FEB', link: '#', tags: ['Thinking'] },
 ];
 
 export const info = {
