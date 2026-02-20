@@ -64,7 +64,7 @@
 }
 
 .markdown-content img {
-    max-width: 80%;
+    max-width: 400px;
     height: auto;
     border-radius: 6px;
     margin: 2rem auto;
