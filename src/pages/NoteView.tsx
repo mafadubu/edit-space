@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 
 const NoteView = () => {
     const { id } = useParams<{ id: string }>();
@@ -38,7 +39,10 @@ const NoteView = () => {
                     <div className="loading-state">Loading...</div>
                 ) : (
                     <div className="markdown-content">
-                        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                        <ReactMarkdown
+                            remarkPlugins={[remarkGfm]}
+                            rehypePlugins={[rehypeRaw]}
+                        >
                             {content}
                         </ReactMarkdown>
                     </div>
