@@ -3,7 +3,9 @@ import Main from './pages/Main';
 import Info from './pages/Info';
 import Library from './pages/Library';
 import Notes from './pages/Notes';
+import NoteView from './pages/NoteView';
 import './index.css';
+import './markdown.css';
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
             <Route path="/" element={<Main />} />
             <Route path="/info" element={<Info />} />
             <Route path="/notes" element={<Notes />} />
+            <Route path="/notes/:id" element={<NoteView />} />
             <Route path="/library" element={<Library />} />
           </Routes>
         </main>

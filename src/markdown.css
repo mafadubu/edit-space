@@ -1,0 +1,127 @@
+/* Markdown Content Styles for NoteView */
+.note-view {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+.back-link {
+    display: inline-block;
+    color: #888888;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem 0;
+    transition: color 0.2s ease;
+}
+
+.back-link:hover {
+    color: #ffffff;
+}
+
+.loading-state {
+    color: #888888;
+    font-size: 1rem;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.markdown-content {
+    line-height: 1.8;
+    color: #f0f0f0;
+    font-size: 1.05rem;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4 {
+    font-family: 'Outfit', sans-serif;
+    color: #ffffff;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.markdown-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.markdown-content h2 {
+    font-size: 1.8rem;
+}
+
+.markdown-content h3 {
+    font-size: 1.4rem;
+}
+
+.markdown-content p {
+    margin-bottom: 1.5rem;
+    color: #d1d1d1;
+}
+
+.markdown-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 2rem 0;
+    border: 1px solid #333;
+    display: block;
+}
+
+.markdown-content a {
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 0.2s ease;
+}
+
+.markdown-content a:hover {
+    color: #888888;
+}
+
+.markdown-content blockquote {
+    border-left: 4px solid #555;
+    background-color: #111;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    color: #d1d1d1;
+}
+
+.markdown-content li {
+    margin-bottom: 0.5rem;
+}
+
+.markdown-content code {
+    background-color: #1a1a1a;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.9em;
+    color: #f0f0f0;
+}
+
+.markdown-content pre {
+    background-color: #111;
+    padding: 1.5rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border: 1px solid #222;
+}
+
+.markdown-content pre code {
+    background-color: transparent;
+    padding: 0;
+    color: #e6e6e6;
+}

@@ -1,4 +1,5 @@
 import { notes } from '../data';
+import { Link } from 'react-router-dom';
 
 const Notes = () => {
     // Group notes by year
@@ -19,9 +20,15 @@ const Notes = () => {
                                             [{note.month}]
                                         </span>
                                         <div className="book-title-group">
-                                            <a href={note.link} target="_blank" rel="noopener noreferrer">
-                                                📝 {note.title}
-                                            </a>
+                                            {note.link.startsWith('http') ? (
+                                                <a href={note.link} target="_blank" rel="noopener noreferrer">
+                                                    📝 {note.title}
+                                                </a>
+                                            ) : (
+                                                <Link to={note.link}>
+                                                    📝 {note.title}
+                                                </Link>
+                                            )}
                                             {note.tags && (
                                                 <div className="tag-group">
                                                     {note.tags.map(tag => (
