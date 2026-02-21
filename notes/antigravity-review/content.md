@@ -73,4 +73,4 @@
 
 ![image.png](/edit-space/notes/antigravity-review/images/image%204.png)
 
-이렇게 [기획] – [디자인/개발] – [배포]의 흐름으로 전체 과정을 아주 가볍게 훑어 보았습니다. 엄밀히 말하면 QA 단계가 빠져 있지만, 저희 같은 비개발자 상남자, 상여자들은 보통 ‘QA’를 배포 이후에 합니다. 물론 각 단계마다 다양한 방법이 연구되고 있습니다만, 이번에는 어디까지나 ‘사용기’ 정도로 참고해 주세요. <span class="tip-container" tabindex="0"><span class="tip-badge">Tip</span><span class="tip-content"><span>참고로 깃허브에서 배포하게 되면 주소가 ‘아이디.github.io/저장소명’ 형식이라 다소 길고, 덜 전문적으로 보일 수 있습니다. 이 때 주소를 바꾸고 싶다면 가비아, 호스팅 등 사이트에서 도메인을 구입해야 합니다.</span></span></span>
+이렇게 [기획] – [디자인/개발] – [배포]의 흐름으로 전체 과정을 아주 가볍게 훑어 보았습니다. 엄밀히 말하면 QA 단계가 빠져 있지만, 저희 같은 비개발자 상남자, 상여자들은 보통 QA 정도는 배포 이후에 합니다. 물론 각 단계마다 다양한 방법이 연구되고 있습니다만, 이번에는 어디까지나 ‘사용기’ 정도로 참고해 주세요. <span class="tip-container" tabindex="0"><span class="tip-badge">Tip</span><span class="tip-content"><span>참고로 깃허브에서 배포하게 되면 주소가 ‘아이디.github.io/저장소명’ 형식이라 다소 길고, 덜 전문적으로 보일 수 있습니다. 이 때 주소를 바꾸고 싶다면 가비아, 호스팅 등 사이트에서 도메인을 구입해야 합니다.</span></span></span>
