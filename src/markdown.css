@@ -142,3 +142,15 @@
     min-width: 0;
     max-width: 100%;
 }
+
+/* Styled Section Titles */
+.markdown-content .section-title {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.4rem 0.8rem;
+    font-weight: 600;
+    font-family: inherit;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
