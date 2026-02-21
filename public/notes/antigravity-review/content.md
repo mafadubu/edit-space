@@ -38,17 +38,18 @@
 
 ![image.png](/edit-space/notes/antigravity-review/images/image%202.png)
 
-![SCR-20260221-bkug.png](/edit-space/notes/antigravity-review/images/SCR-20260221-bkug.png)
-
 <span class="step-badge">3</span> 조금 더 어려운 과정들도 요청해 보겠습니다. 요청 사항에는 ‘더 보기 좋게’, ‘마우스 커서를 올리면 → 뱅글뱅글 돌아 갔으면 좋겠어’와 같이 수치나, 용어를 전혀 사용하지 않았습니다. 근데 오히려 이런 것이 ‘바이브 코딩스러워서’ 좋네요. 이게 바로 (비)개발 언어죠. 
 
-![화면 기록 2026-02-21 오전 12.35.23.gif](/edit-space/notes/antigravity-review/images/demo.gif)
+![SCR-20260221-bkug.png](/edit-space/notes/antigravity-review/images/SCR-20260221-bkug.png)
 
 <span class="step-badge">4</span> 요청한 것들은 우선 반영이 되었네요. 책 사이 간격이나, 뒤표지가 먼저 보이는 문제 등도 텍스트 요청만으로 쉽게 해결할 수 있습니다. 
 
-![SCR-20260221-bvho.png](/edit-space/notes/antigravity-review/images/SCR-20260221-bvho.png)
+![화면 기록 2026-02-21 오전 12.35.23.gif](/edit-space/notes/antigravity-review/images/demo.gif)
 
 <span class="step-badge">5</span> 참고로 이렇게 감정에 호소하는 느낌으로도 수정할 수 있습니다. 
+
+![SCR-20260221-bvho.png](/edit-space/notes/antigravity-review/images/SCR-20260221-bvho.png)
+
 
 이렇게 안티그래비티를 활용해 디테일들을 추가하며 홈페이지를 완성할 수 있습니다. 
 
