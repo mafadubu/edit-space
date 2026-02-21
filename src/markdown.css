@@ -82,7 +82,7 @@
 }
 
 .markdown-content a:hover {
-    color: #666666;
+    color: #0056b3;
 }
 
 .markdown-content blockquote,
@@ -144,16 +144,24 @@
     max-width: 100%;
 }
 
-/* Styled Section Titles */
-.markdown-content .section-title {
+/* Styled Section Headers ([1] [Title]) */
+.markdown-content .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.markdown-content .section-number,
+.markdown-content .section-text {
     display: inline-block;
     background-color: #000000;
     color: #ffffff;
     padding: 0.4rem 0.8rem;
     font-weight: 600;
     font-family: inherit;
-    margin-top: 2.5rem;
-    margin-bottom: 0.5rem;
+    border-radius: 0;
 }
 
 /* Tip Tooltip Styles */
