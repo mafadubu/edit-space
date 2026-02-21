@@ -6,9 +6,11 @@
 
 <div class="section-header"><span class="section-number">1</span><span class="section-text">기획하기</span></div>
 
-기획 단계에서는 레퍼런스를 찾습니다. 추후에 이를 바탕으로 메뉴와 콘텐츠를 구성해 달라고 요청할 수 있습니다. 저는 사이드바에 메뉴를 배치하는 레이아웃 + 검정 바탕에 / 흰 텍스트를 활용한 웹사이트를 만들기 위해 제가 자주 방문하는 [6699press](https://6699press.kr/)의 홈페이지를 참고하였습니다.
+기획 단계에서는 먼저 레퍼런스를 찾습니다. 막연히 ‘이런 사이트를 만들고 싶다’고 생각하는 것보다, 구체적인 화면 사례를 기준으로 구조를 정리하는 편이 훨씬 수월했습니다. 이후 이 레퍼런스를 바탕으로 메뉴 구성과 콘텐츠 구조를 정리해 달라고 요청할 수도 있기 때문에, 참고 사이트를 명확히 정해 두는 과정이 중요합니다.
 
 ![image.png](/edit-space/notes/antigravity-review/images/image.png)
+
+저는 사이드바에 메뉴를 배치한 레이아웃과 검정 배경에 흰 텍스트를 사용하는 비교적 미니멀한 스타일을 구현하고 싶었습니다. 이를 위해 평소 자주 방문하던 [6699press](https://6699press.kr/)의 홈페이지를 참고했습니다. 전체적인 톤앤매너, 메뉴의 위치, 콘텐츠 레이아웃을 살펴보면서 ‘내 사이트에는 무엇이 필요하고, 무엇은 덜어내도 되는지’를 정리하는 데 큰 도움이 되었습니다.
 
 <div class="section-header"><span class="section-number">2</span><span class="section-text">디자인/개발하기 1</span></div>
 
