@@ -28,23 +28,7 @@
 
 <div class="section-title">3. 디자인/개발하기 2</div>
 
-안티그래비티가 더미처럼 추가한 부분들을 수정해 보겠습니다. 
-
-<aside>
-
-참고로 안티그래비티는 사용자의 컴퓨터에서 클릭, 스크롤, 입력, 콘솔 로그 읽기 등 브라우저를 제어하는 데 필요한 다양한 도구에 액세스할 수 있습니다. 수정을 요청하면 웹사이트가 열리고, 다음과 같이 ‘Agent needs your input’이라는 알림이 나올 때가 있습니다. 이 때 안티그래비티에서 [Allow]를 눌러 주어야 다음 단계로 진행할 수 있습니다. 
-
-<div class="image-grid">
-
-![SCR-20260221-bwkj.png](/edit-space/notes/antigravity-review/images/SCR-20260221-bwkj.png)
-
-![image.png](/edit-space/notes/antigravity-review/images/image%201.png)
-
-</div>
-
-웹사이트가 자동으로 열리는 것은 ****‘DOM 캡처’ 기능으로, 이는 안티그래비티가 브라우저 내 웹페이지의 구조와 내용을 분석하고 화면을 기록하는 핵심 기능이며, 이는 단순한 이미지 캡처를 넘어 브라우저 디버깅까지 안티그래비티가 스스로 수행할 수 있게 합니다.
-
-</aside>
+안티그래비티가 더미처럼 추가한 부분들을 수정해 보겠습니다. <span class="tip-container" tabindex="0"><span class="tip-badge">Tip</span><span class="tip-content"><span>참고로 안티그래비티는 사용자의 컴퓨터에서 클릭, 스크롤, 입력, 콘솔 로그 읽기 등 브라우저를 제어하는 데 필요한 다양한 도구에 액세스할 수 있습니다. 수정을 요청하면 웹사이트가 열리고, 다음과 같이 ‘Agent needs your input’이라는 알림이 나올 때가 있습니다. 이 때 안티그래비티에서 [Allow]를 눌러 주어야 다음 단계로 진행할 수 있습니다.</span><span class="image-grid"><img src="/edit-space/notes/antigravity-review/images/SCR-20260221-bwkj.png" alt="SCR-20260221-bwkj.png"><img src="/edit-space/notes/antigravity-review/images/image%201.png" alt="image.png"></span><span>웹사이트가 자동으로 열리는 것은 <strong>‘DOM 캡처’</strong> 기능으로, 이는 안티그래비티가 브라우저 내 웹페이지의 구조와 내용을 분석하고 화면을 기록하는 핵심 기능이며, 이는 단순한 이미지 캡처를 넘어 브라우저 디버깅까지 안티그래비티가 스스로 수행할 수 있게 합니다.</span></span></span>
 
 ① 수정은 ‘수정하고 싶은 것 + 위치 + 수정 사항’을 적으면 대체로 잘 알아듣는 편입니다. 줄이거나 늘리는 건 ‘약간, 적당히, 가독성 좋게’ 같은 애매모호한 요청도 잘 적용합니다. 
 
@@ -80,10 +64,4 @@
 
 ![image.png](/edit-space/notes/antigravity-review/images/image%204.png)
 
-이렇게 [기획 - 디자인 - 개발 - 배포]로 이어지는 과정을 정말 겉핥기로 진행해 보았습니다. 그리고 저희 같은 비개발자 상남자, 상여자들은 ‘QA’는 배포 이후에 진행합니다. 
-
-<aside>
-
-참고로 깃허브에서 배포하게 되면 주소가 ‘아이디.github.io/저장소명’ 형식이라 다소 길고, 덜 전문적으로 보일 수 있습니다. 이 때 주소를 바꾸고 싶다면 가비아, 호스팅 등 사이트에서 도메인을 구입해야 합니다. 
-
-</aside>
+이렇게 [기획 - 디자인 - 개발 - 배포]로 이어지는 과정을 정말 겉핥기로 진행해 보았습니다. 그리고 저희 같은 비개발자 상남자, 상여자들은 ‘QA’는 배포 이후에 진행합니다. <span class="tip-container" tabindex="0"><span class="tip-badge">Tip</span><span class="tip-content"><span>참고로 깃허브에서 배포하게 되면 주소가 ‘아이디.github.io/저장소명’ 형식이라 다소 길고, 덜 전문적으로 보일 수 있습니다. 이 때 주소를 바꾸고 싶다면 가비아, 호스팅 등 사이트에서 도메인을 구입해야 합니다.</span></span></span>
