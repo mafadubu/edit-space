@@ -4,6 +4,11 @@
 
 이번 글에서는 안티그래비티 사용기를 [기획] – [디자인/개발] – [배포] 3단계로 나누어 정리해 보려고 합니다. 비개발자 입장에서 안티그래비티 사용기를 솔직하게 적어 보겠습니다. 전문적인 개발 리뷰라기보다는, ‘노션을 넘어서 한 번쯤은 나만의 웹사이트를 만들어 보고 싶었던 사람’의 경험담에 가깝습니다. 가볍게 참고용으로 읽어주시면 좋겠습니다.
 
+<span class="tip-container image-tip" tabindex="0">
+  <img src="/edit-space/notes/antigravity-review/images/notion-portfolio.png" alt="노션 포트폴리오 예시">
+  <span class="tip-content"><span>노션 포트폴리오 예시</span></span>
+</span>
+
 <div class="section-header"><span class="section-number">1</span><span class="section-text">기획하기</span></div>
 
 기획 단계에서는 먼저 레퍼런스를 찾습니다. 막연히 ‘이런 사이트를 만들고 싶다’고 생각하는 것보다, 구체적인 화면 사례를 기준으로 구조를 정리하는 편이 훨씬 수월했습니다. 이후 이 레퍼런스를 바탕으로 메뉴 구성과 콘텐츠 구조를 정리해 달라고 요청할 수도 있기 때문에, 참고 사이트를 명확히 정해 두는 과정이 중요합니다.

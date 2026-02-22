@@ -168,9 +168,19 @@
 .tip-container {
     position: relative;
     display: inline-block;
-    cursor: pointer;
+    cursor: help;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+}
+
+.tip-container.image-tip {
+    display: block;
+    width: fit-content;
+    margin: 2rem auto;
+}
+
+.tip-container.image-tip img {
+    margin: 0;
 }
 
 .tip-badge {
