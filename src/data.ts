@@ -45,7 +45,7 @@ export interface Note {
 }
 
 export const notes: Note[] = [
-    { id: 'n1', title: '안티그래비티로 웹사이트 생성하기', year: 2026, month: 'FEB', link: '/notes/antigravity-review', tags: ['Thinking'] },
+    { id: 'n1', title: '비개발자가 안티그래비티로 포트폴리오 사이트 만든 법', year: 2026, month: 'FEB', link: '/notes/antigravity-review', tags: ['개발'] },
 ];
 
 export const info = {
