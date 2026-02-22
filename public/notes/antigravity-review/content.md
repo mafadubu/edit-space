@@ -2,10 +2,13 @@
 
 안티그래비티로 웹사이트를 만들어 보았습니다. 웹사이트 제작에는 그동안 노션을 많이 활용했습니다. 비개발자 입장에서는 노션이 웹사이트로 활용하기 좋습니다만, 디자인 요소를 적극적으로 추가하기 어려워서 아쉬운 점도 분명했습니다. 반면 안티그래비티는 비개발자가 접근하기 어려웠던 웹사이트의 UI/UX 디자인까지 모두 설계해 볼 수 있다는 점에서 꽤나 매력적으로 다가왔습니다.
 
-<span class="tip-container image-tip" tabindex="0">
+<div class="image-wrapper">
   <img src="/edit-space/notes/antigravity-review/images/notion-portfolio.png" alt="노션 포트폴리오 예시">
-  <span class="tip-content"><span>노션 포트폴리오 예시</span></span>
-</span>
+  <span class="tip-container image-badge-tip" tabindex="0">
+    <span class="tip-badge">Tip</span>
+    <span class="tip-content"><span>노션 포트폴리오 예시</span></span>
+  </span>
+</div>
 
 이번 글에서는 안티그래비티 사용기를 [기획] – [디자인/개발] – [배포] 3단계로 나누어 정리해 보려고 합니다. 비개발자 입장에서 안티그래비티 사용기를 솔직하게 적어 보겠습니다. 전문적인 개발 리뷰라기보다는, ‘노션을 넘어서 한 번쯤은 나만의 웹사이트를 만들어 보고 싶었던 사람’의 경험담에 가깝습니다. 가볍게 참고용으로 읽어주시면 좋겠습니다.
 
