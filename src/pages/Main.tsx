@@ -73,7 +73,15 @@ const Main = () => {
                             exit={{ opacity: 0, x: 20 }}
                             className="book-preview-container"
                         >
-                            <img src={hoveredImage} alt="Book Preview" />
+                            <img
+                                src={hoveredImage}
+                                alt="Book Preview"
+                                style={hoveredImage.includes('comfyui.png') ? {
+                                    maxWidth: '300px', /* Matches the ~400px height of book5 */
+                                    margin: '0 auto',
+                                    display: 'block'
+                                } : {}}
+                            />
                         </motion.div>
                     )}
                 </AnimatePresence>
