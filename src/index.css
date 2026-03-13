@@ -257,6 +257,8 @@ a:hover {
 .tag-group {
   display: flex;
   gap: 4px;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
 }
 
 .tag-box {
