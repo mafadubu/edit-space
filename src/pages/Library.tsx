@@ -15,7 +15,17 @@ const Library = () => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: index * 0.05, duration: 0.3 }}
                     >
-                        <img src={book.image} alt={book.title} loading="lazy" />
+                        <img
+                            src={book.image}
+                            alt={book.title}
+                            loading="lazy"
+                            style={book.id === '26-1' ? {
+                                transform: 'scale(0.91)', // 220px / 240px = 0.916 -> 91% scale perfectly mimics 220x300 constraint
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain'
+                            } : {}}
+                        />
                         <div className="grid-item-overlay" style={{
                             position: 'absolute',
                             bottom: 0,
