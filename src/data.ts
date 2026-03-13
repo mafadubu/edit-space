@@ -14,7 +14,8 @@ export interface Book {
 
 export const books: Book[] = [
     // 2026
-    { id: '26-1', title: '작업 중...', year: 2026, month: 'MAR', image: '', size: 'normal', isWIP: true },
+    // 2026
+    { id: '26-1', title: '30가지 예제로 따라 하며 배우는 ComfyUI 클라우드', year: 2026, month: 'MAR', image: '/edit-space/comfyui.png', size: 'normal', tags: ['기획', '제작'] },
 
     // 2025
     { id: '25-1', title: '수노로 시작하는 AI 작곡', year: 2025, month: 'DEC', image: '/edit-space/book1.png', size: 'normal', tags: ['제작'] },
