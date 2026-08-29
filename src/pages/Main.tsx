@@ -76,11 +76,11 @@ const Main = () => {
                             <img
                                 src={hoveredImage}
                                 alt="Book Preview"
-                                style={hoveredImage.includes('comfyui.png') ? {
-                                    maxWidth: '300px', /* Matches the ~400px height of book5 */
-                                    margin: '60px auto 0 auto',
-                                    display: 'block'
-                                } : {}}
+                                style={{
+    maxWidth: '300px',
+    margin: '60px auto 0 auto',
+    display: 'block'
+}}
                             />
                         </motion.div>
                     )}
