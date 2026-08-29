@@ -77,7 +77,7 @@ const Main = () => {
                                 src={hoveredImage}
                                 alt="Book Preview"
                                 style={{
-    height: '500px',
+    height: '430px',
     width: 'auto',
     maxWidth: '100%',
     objectFit: 'contain',
