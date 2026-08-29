@@ -303,16 +303,20 @@ a:hover {
 .grid-item {
     position: relative;
     overflow: hidden;
-    aspect-ratio: 3 / 4;
+    height: 300px;
     padding: 8px;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .grid-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-  display: block;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 /* Spans removed for uniform grid */
