@@ -318,8 +318,8 @@ a:hover {
 }
 
 .grid-item img[src*="?v=2"] {
-  clip-path: inset(2px);
-  transform: scale(1.015);
+  clip-path: inset(5px);
+  transform: scale(1.04);
 }
 
 /* Spans removed for uniform grid */
