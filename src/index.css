@@ -290,12 +290,12 @@ a:hover {
   vertical-align: middle;
 }
 
-/* User request 1: Seamless Library Grid, 4 columns, no gaps, no lines */
+/* Library Grid - 4 columns */
 .puzzle-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   /* 4 columns as requested */
-  gap: 0;
+  gap: 16;
   line-height: 0;
   /* Remove potential tiny gaps below images */
 }
