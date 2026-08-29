@@ -505,8 +505,8 @@ footer {
 
 /* 디자인 트렌드 아카이브 */
 .grid-item img[src*="book4.png"] {
-  clip-path: inset(8px 5px);
-  transform: scale(1.055);
+  clip-path: inset(10px 5px);
+  transform: scale(1.065);
 }
 
 /* 챗GPT 글쓰기 코치가 되어 줘 */
