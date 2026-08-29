@@ -44,18 +44,18 @@ const Main = () => {
                                                 <span className="milestone-title">🔖 {book.title}</span>
                                             </div>
                                         ) : (
-                                            <div className="book-title-group">
-                                                <a href={book.link || '#'} onClick={(e) => !book.link && e.preventDefault()}>
-                                                    📚 {book.title}
-                                                </a>
-                                                {book.tags && (
-                                                    <div className="tag-group">
-                                                        {book.tags.map(tag => (
-                                                            <span key={tag} className="tag-box">{tag}</span>
-                                                        ))}
-                                                    </div>
-                                                )}
-                                            </div>
+                           <div className="book-title-group">
+    <a href={book.link || '#'} onClick={(e) => !book.link && e.preventDefault()}>
+        📚 {book.title}
+    </a>
+    {book.tags && (
+        <span className="tag-group">
+            {book.tags.map(tag => (
+                <span key={tag} className="tag-box">{tag}</span>
+            ))}
+        </span>
+    )}
+</div>
                                         )}
                                     </li>
                                 ))}
