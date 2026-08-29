@@ -14,7 +14,10 @@ export interface Book {
 
 export const books: Book[] = [
     // 2026
-    // 2026
+    { id: '26-2', title: '브랜드가 된 디자이너', year: 2026, month: 'JUL', image: '/edit-space/brand-designer.jpg', size: 'normal', tags: ['제작'] },
+    { id: '26-sejong-1', title: "'한 번에 완성하는 AI 영상 제작 챗GPT+소라+브루' 2026년 세종도서 선정", year: 2026, month: 'JUL', image: '', size: 'normal', isMilestone: true },
+    { id: '26-sejong-2', title: "'일잘러의 챗GPT 프롬프트 74가지' 2026년 세종도서 선정", year: 2026, month: 'JUL', image: '', size: 'normal', isMilestone: true },
+    { id: '26-3', title: '디자이너를 위한 AI 디자인 크리에이티브 아트워크', year: 2026, month: 'JUN', image: '/edit-space/ai-design-artwork.jpg', size: 'normal', tags: ['기획', '제작'] },
     { id: '26-1', title: '30가지 예제로 따라 하며 배우는 ComfyUI 클라우드', year: 2026, month: 'MAR', image: '/edit-space/comfyui.png', size: 'normal', tags: ['기획', '제작'] },
 
     // 2025
@@ -53,7 +56,7 @@ export const info = {
     name: '책 먹는 편집자',
     englishName: 'Antigravity',
     bio: '아름다운 표지의 책을 사랑하는 사람. 포토샵, 인디자인 자격증을 보유한 덕에 얼떨결에 IT/실용 편집자가 됐다. 현재는 직장인들에게 필요한 IT 및 실용 콘텐츠(오피스, 디자인 등)를 기획하고 있다.',
-    email: 'jsna@jpub.kr',
+    email: 'jsna@shiftbook.co.kr',
     twitter: '@gjgygrbb',
-    company: '제이펍',
+    company: '시프트',
 };
