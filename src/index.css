@@ -502,3 +502,15 @@ footer {
     font-family: Arial, sans-serif;
   }
 }
+
+/* 디자인 트렌드 아카이브 */
+.grid-item img[src*="book4.png"] {
+  clip-path: inset(8px 5px);
+  transform: scale(1.055);
+}
+
+/* 챗GPT 글쓰기 코치가 되어 줘 */
+.grid-item img[src*="book6.png"] {
+  clip-path: inset(8px 5px);
+  transform: scale(1.055);
+}
