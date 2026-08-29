@@ -200,6 +200,33 @@ a:hover {
   object-fit: contain;
 }
 
+/* 2025~2023 기존 책 hover 미리보기의 이미지 테두리 제거 */
+.book-preview-container img[src*="book1.png"],
+.book-preview-container img[src*="book2.png"],
+.book-preview-container img[src*="book3.png"],
+.book-preview-container img[src*="book4.png"],
+.book-preview-container img[src*="book5.png"],
+.book-preview-container img[src*="book6.png"],
+.book-preview-container img[src*="book7.png"],
+.book-preview-container img[src*="book8.png"],
+.book-preview-container img[src*="book_weapon.png"],
+.book-preview-container img[src*="new_uipath.png"],
+.book-preview-container img[src*="new_microcopy.png"] {
+  clip-path: inset(5px);
+  transform: scale(1.025);
+}
+
+/* 테두리가 두꺼운 두 이미지 추가 보정 */
+.book-preview-container img[src*="book4.png"] {
+  clip-path: inset(10px 5px);
+  transform: scale(1.04);
+}
+
+.book-preview-container img[src*="book6.png"] {
+  clip-path: inset(8px 5px);
+  transform: scale(1.035);
+}
+
 .wip-item {
   cursor: default;
 }
