@@ -19,17 +19,17 @@ const Library = () => {
                             src={book.image}
                             alt={book.title}
                             loading="lazy"
-                            style={
+style={
     book.id === '26-1' ? {
-        transform: 'scale(0.78)',
-        width: '100%',
-        height: '100%',
-        objectFit: 'contain'
+        width: '128px',
+        height: '189px',
+        objectFit: 'contain',
+        margin: 'auto'
     } : book.id === '26-3' ? {
-        transform: 'scale(0.86)',
-        width: '100%',
-        height: '100%',
-        objectFit: 'contain'
+        width: '190px',
+        height: '258px',
+        objectFit: 'contain',
+        margin: 'auto'
     } : {}
 }
                         />
