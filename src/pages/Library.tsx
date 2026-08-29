@@ -20,7 +20,7 @@ const Library = () => {
                             alt={book.title}
                             loading="lazy"
 style={
-    book.id === '26-1' ? {
+    book.id === '26-2' ? {
         width: '128px',
         height: '189px',
         objectFit: 'contain',
