@@ -16,23 +16,10 @@ const Library = () => {
                         transition={{ delay: index * 0.05, duration: 0.3 }}
                     >
                         <img
-                            src={book.image}
-                            alt={book.title}
-                            loading="lazy"
-style={
-    book.id === '26-2' ? {
-        width: '128px',
-        height: '189px',
-        objectFit: 'contain',
-        margin: 'auto'
-    } : book.id === '26-3' ? {
-        width: '190px',
-        height: '258px',
-        objectFit: 'contain',
-        margin: 'auto'
-    } : {}
-}
-                        />
+    src={book.image}
+    alt={book.title}
+    loading="lazy"
+/>
                         <div className="grid-item-overlay" style={{
                             position: 'absolute',
                             bottom: 0,
