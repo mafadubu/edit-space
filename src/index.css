@@ -194,11 +194,10 @@ a:hover {
 }
 
 .book-preview-container img {
-  width: 100%;
-  height: auto;
-  max-height: 85vh;
+  height: 430px;
+  width: auto;
+  max-width: 100%;
   object-fit: contain;
-  /* Removed shadow as requested */
 }
 
 .wip-item {
