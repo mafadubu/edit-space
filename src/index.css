@@ -248,16 +248,12 @@ a:hover {
 }
 
 .book-title-group {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+    display: inline;
 }
 
 .tag-group {
-  display: flex;
-  gap: 4px;
-  flex-wrap: nowrap;
-  flex-shrink: 0;
+    display: inline;
+    margin-left: 8px;
 }
 
 .tag-box {
