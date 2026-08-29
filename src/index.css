@@ -294,29 +294,27 @@ a:hover {
 .puzzle-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* 4 columns as requested */
   gap: 0;
   line-height: 0;
-  /* Remove potential tiny gaps below images */
 }
 
 .grid-item {
-    position: relative;
-    overflow: hidden;
-    height: 300px;
-    padding: 8px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  overflow: hidden;
+  height: 320px;
+  padding: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-item img {
-    height: 100%;
-    width: auto;
-    max-width: 100%;
-    object-fit: contain;
-    display: block;
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 /* Spans removed for uniform grid */
