@@ -77,8 +77,11 @@ const Main = () => {
                                 src={hoveredImage}
                                 alt="Book Preview"
                                 style={{
-    maxWidth: '300px',
-    margin: '60px auto 0 auto',
+    height: '500px',
+    width: 'auto',
+    maxWidth: '100%',
+    objectFit: 'contain',
+    margin: '30px auto 0 auto',
     display: 'block'
 }}
                             />
