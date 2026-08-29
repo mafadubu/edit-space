@@ -19,12 +19,19 @@ const Library = () => {
                             src={book.image}
                             alt={book.title}
                             loading="lazy"
-                            style={book.id === '26-1' ? {
-                                transform: 'scale(0.91)', // 220px / 240px = 0.916 -> 91% scale perfectly mimics 220x300 constraint
-                                width: '100%',
-                                height: '100%',
-                                objectFit: 'contain'
-                            } : {}}
+                            style={
+    book.id === '26-1' ? {
+        transform: 'scale(0.78)',
+        width: '100%',
+        height: '100%',
+        objectFit: 'contain'
+    } : book.id === '26-3' ? {
+        transform: 'scale(0.86)',
+        width: '100%',
+        height: '100%',
+        objectFit: 'contain'
+    } : {}
+}
                         />
                         <div className="grid-item-overlay" style={{
                             position: 'absolute',
