@@ -56,7 +56,7 @@ export const notes: Note[] = [
 export const info = {
     name: '책 먹는 편집자',
     englishName: 'Antigravity',
-    bio: '아름다운 표지의 책을 사랑하는 사람. 포토샵, 인디자인 자격증을 보유한 덕에 얼떨결에 IT/실용 편집자가 됐다. 현재는 직장인들에게 필요한 IT 및 실용 콘텐츠(오피스, 디자인 등)를 기획하고 있다.',
+    bio: '책 담그는 사람. 포토샵, 인디자인 자격증을 보유한 덕에 얼떨결에 IT 편집자가 됐다. 모든 독자를 타깃으로 IT/실용, 취미, 디자인 등 다양한 콘텐츠를 기획하고 있다.',
     email: 'jsna@shiftbook.co.kr',
     twitter: '@gjgygrbb',
     company: '시프트',
