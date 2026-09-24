@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { books } from '../data';
 
 const Library = () => {
-    const libraryBooks = books.filter(b => !b.isWIP && !b.isMilestone);
+    const libraryBooks = books.filter(b => !b.isWIP && !b.isMilestone && b.kind !== 'website');
 
     return (
         <div className="library-page">
