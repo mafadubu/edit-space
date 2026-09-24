@@ -1,4 +1,16 @@
 /* Markdown Content Styles for NoteView */
+.markdown-content .book-review-title {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    line-height: 1.45;
+}
+
+@media (max-width: 768px) {
+    .markdown-content .book-review-title {
+        font-size: 1.7rem;
+    }
+}
+
 .note-view {
     max-width: 800px;
     margin: 0 auto;

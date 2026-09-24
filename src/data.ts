@@ -52,6 +52,7 @@ export interface Note {
 }
 
 export const notes: Note[] = [
+    { id: 'naver-blog-review', title: '네이버 블로그 노출·수익화 전략으로 돈이 되는 블로그 운영하기', year: 2026, month: 'SEP', link: '/notes/naver-blog-review', tags: ['도서 작업 후기'] },
     { id: 'n1', title: '안티그래비티로 웹사이트 만들기', year: 2026, month: 'FEB', link: '/notes/antigravity-review', tags: ['IT'] },
 ];
 
