@@ -46,7 +46,7 @@ const Main = () => {
                                         ) : (
                            <div className="book-title-group">
     <a href={book.link || '#'} onClick={(e) => !book.link && e.preventDefault()}>
-        {book.kind !== 'website' && '📚 '}{book.title}
+        {book.kind === 'website' ? '🖥️ ' : '📚 '}{book.title}
     </a>
     {book.tags && (
         <span className="tag-group">
