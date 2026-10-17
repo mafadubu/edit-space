@@ -30,3 +30,6 @@
 .automation-note .markdown-content .section-number{flex-shrink:0}
 .automation-note .markdown-content .section-text{word-break:keep-all}
 @media(max-width:768px){.automation-note .markdown-content h1{font-size:1.7rem}.automation-note .markdown-content .section-text{word-break:normal}}
+
+.automation-note .markdown-content .automation-overview{margin:2.5rem 0;overflow-x:auto}
+.automation-note .markdown-content .automation-overview img{width:100%;min-width:640px;max-width:none;border:0;border-radius:0;box-shadow:none;margin:0}
