@@ -1,0 +1,32 @@
+
+/* Sentence annotations in the automation article */
+.markdown-content .sentence-map{margin:2rem 0;padding:24px 0 16px;overflow-x:auto}
+.sentence-map-inner{display:grid;grid-template-columns:max-content max-content max-content max-content minmax(125px,1fr);grid-template-rows:auto auto;align-items:start;min-width:670px;font-size:15px;line-height:1.8}
+.map-term{border-bottom:2px solid #222;text-align:center;padding:0 2px 6px;white-space:nowrap}
+.map-join{padding-top:0;white-space:nowrap}
+.map-sender{grid-column:1}.map-or{grid-column:2}.map-message{grid-column:3}.map-when{grid-column:4}.map-action{grid-column:5}
+.map-detail{grid-row:2;position:relative;padding-top:42px;text-align:center;font-size:14px;line-height:1.65;word-break:keep-all}
+.map-detail::before{content:"";position:absolute;top:0;left:50%;height:30px;border-left:1px solid #777}
+.map-detail::after{content:"";position:absolute;top:29px;left:calc(50% - 2px);width:5px;height:5px;border-radius:50%;background:#777}
+.map-sender-detail{grid-column:1}.map-message-detail{grid-column:3}.map-action-detail{grid-column:5}
+.map-detail-context{display:block;color:#777;font-size:11px;margin-bottom:5px}
+
+.note-view.automation-note{min-width:0;width:100%}
+.sentence-map-inner{grid-template-columns:max-content max-content max-content max-content max-content;justify-content:center;min-width:670px;padding:0 60px}
+.map-action-detail{width:160px;left:50%;transform:translateX(-50%)}
+
+/* Soft, Notion-like callouts */
+.markdown-content .note-callout{display:flex;align-items:flex-start;gap:14px;margin:1.8rem 0;padding:20px 22px;border-radius:8px;background:#f0f4f1;border:1px solid #e5ebe6;line-height:1.8}
+.markdown-content .note-callout-notice{background:#f6f4ef;border-color:#ece8df}
+.note-callout-icon{flex:0 0 22px;width:22px;height:22px;display:flex;align-items:center;justify-content:center;margin-top:4px;color:#518062;font-family:Arial,sans-serif;font-size:21px;font-weight:700;line-height:1}
+.note-callout-notice .note-callout-icon{color:#997b43;border:1.5px solid currentColor;border-radius:50%;font-size:15px}
+.markdown-content .note-callout ol{flex:1;min-width:0;margin:0;padding-left:1.4em;font-size:.95em}
+.markdown-content .note-callout li{padding-left:2px;margin:0 0 .45em}
+.markdown-content .note-callout li:last-child{margin-bottom:0}
+@media(max-width:768px){.markdown-content .note-callout{padding:16px 14px;gap:10px}.markdown-content .note-callout ol{font-size:.92em}}
+
+.automation-note .markdown-content h1{word-break:keep-all;line-height:1.45}
+.automation-note .markdown-content .section-header{align-items:flex-start}
+.automation-note .markdown-content .section-number{flex-shrink:0}
+.automation-note .markdown-content .section-text{word-break:keep-all}
+@media(max-width:768px){.automation-note .markdown-content h1{font-size:1.7rem}.automation-note .markdown-content .section-text{word-break:normal}}

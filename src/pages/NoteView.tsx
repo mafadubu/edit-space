@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
+import '../automation-note.css';
 
 const NoteView = () => {
     const { id } = useParams<{ id: string }>();
@@ -31,7 +32,7 @@ const NoteView = () => {
 
     return (
         <div className="main-page-container">
-            <div className="main-page note-view">
+            <div className={`main-page note-view${id === 'ai-automation-1' ? ' automation-note' : ''}`}>
                 <div>
                     <Link to="/notes" className="back-link">← Back to Notes</Link>
                 </div>
