@@ -26,8 +26,6 @@
 </div>
 </figure>
 
-![아이폰 단축어의 메시지 수신 조건과 텍스트 전달 설정](/edit-space/notes/ai-automation-1/images/shortcuts-setup.png)
-
 단축어만 활용한다고 끝이 아닙니다. 아이폰 단축어 앱과 Python은 서로 다른 환경에 있기 때문에, 아이폰이 읽은 인증번호를 Python이 바로 사용할 수 없습니다. 서로 다른 환경에서 작동하니 중간에서 정보를 전달해 줄 무언가가 필요하죠. AI는 두 환경을 연결하는 방법으로 Cloudflare Workers를 제안했습니다.
 
 Cloudflare Workers는 별도의 서버 컴퓨터를 직접 운영하지 않아도 인터넷에서 간단한 프로그램을 실행할 수 있는 서비스입니다. 아이폰과 Python 사이의 중간 통로인 것입니다.
@@ -69,5 +67,7 @@ AI가 추천한 것은 **GitHub Actions**였습니다. GitHub는 프로그램 �
 <div class="section-header"><span class="section-number">6</span><span class="section-text">마무리</span></div>
 
 이번 작업에서 가장 흥미로웠던 건 코딩이나 서버에 대한 전문적인 지식이 없어도 여기까지 만들 수 있었다는 점입니다. 물론 AI가 알려주는 대로 따라 했다고 모든 게 한 번에 해결된 건 아닙니다. 오류도 있었고, 잘되던 기능이 갑자기 작동하지 않아 다시 수정하기도 했습니다. 그래도 문제가 생길 때마다 AI에 물어보고 하나씩 해결하다 보니 처음 생각했던 것보다 제법 그럴듯한 결과물이 나왔습니다.
+
+<figure class="automation-overview"><img src="/edit-space/notes/ai-automation-1/images/automation-overview.svg" alt="GitHub Actions가 Python을 예약 실행하고, 아이폰 단축어와 Cloudflare Workers가 인증번호를 전달해 수집한 데이터를 대시보드에서 확인하는 흐름"></figure>
 
 데이터 몇 개 편하게 보려다가 일이 꽤 커졌네요. 그래도 이제는 제가 직접 확인하지 않아도 데이터가 차곡차곡 쌓이고 있으니, 당분간은 잘 만든 자동화 하나 덕을 볼 수 있을 것 같습니다.
