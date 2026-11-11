@@ -17,7 +17,7 @@ export const books: Book[] = [
     // 2026
     { id: '26-notion-ai', title: '업무와 일상을 혁신하는 새로운 방법 노션 AI', year: 2026, month: 'OCT', image: '/edit-space/notion-ai.png', size: 'normal', tags: ['기획'] },
     { id: '26-seoul-archive-fair', kind: 'website', title: '제7회 서울기록페어 웹페이지', year: 2026, month: 'SEP', image: '/edit-space/seoul-archive-fair.png', size: 'normal', tags: ['제작'] },
-    { id: '26-4', title: '네이버 블로그 노출·수익화 전략으로 돈이 되는 블로그 운영하기', year: 2026, month: 'SEP', image: '/edit-space/naver-blog.jpg', size: 'normal', tags: ['제작'] },
+    { id: '26-4', title: '네이버 블로그 노출·수익화 전략으로 돈이 되는 블로그 운영하기', year: 2026, month: 'SEP', image: '/edit-space/naver-blog.jpg', size: 'normal', tags: ['기획', '제작'] },
     { id: '26-2', title: '브랜드가 된 디자이너', year: 2026, month: 'JUL', image: '/edit-space/brand-designer.jpg', size: 'normal', tags: ['제작'] },
     { id: '26-sejong-1', title: "'한 번에 완성하는 AI 영상 제작 챗GPT+소라+브루' 2026년 세종도서 선정", year: 2026, month: 'JUL', image: '', size: 'normal', isMilestone: true },
     { id: '26-sejong-2', title: "'일잘러의 챗GPT 프롬프트 74가지' 2026년 세종도서 선정", year: 2026, month: 'JUL', image: '', size: 'normal', isMilestone: true },
